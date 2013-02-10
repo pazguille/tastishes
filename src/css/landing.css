@@ -1,0 +1,139 @@
+img {
+	max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: bold;
+	line-height: 1.25em;
+	margin: 0 0 10px;
+}
+
+::selection {
+	background: rgba(228, 10, 82, .9);
+}
+
+body {
+	background: #f7f5f5;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+	color: #524D4D;
+	padding: 0;
+	font-size: 14px;
+	line-height: 1.231em;
+	font-family: "Helvetica Neue", Helvetica, Arial, "MS Trebuchet", sans-serif;
+}
+
+.ch-logo {
+	font-family: "Lobster Two", cursive;
+	font-size: 5.5em;
+	line-height: 4.08em;
+	font-style: italic;
+	text-align: center;
+}
+
+.ch-logo span {
+	color: #ffffff;
+	box-shadow: 0 1px 1px rgba(34, 25, 25, .2);
+	text-shadow: 0 -1px 0 rgba(100, 100, 100, .5);
+	position: relative;
+	top: -40px;
+	display: block;
+	margin: 0 auto;
+	width: 320px;
+	height: 320px;
+	border-radius: 100%;
+	border: 14px solid whiteSmoke;
+	background: #E40A52;
+	-o-transition: -webkit-transform 0.5s ease;
+	-ms-transition: -webkit-transform 0.5s ease;
+	-moz-transition: -webkit-transform 0.5s ease;
+	-webkit-transition: -webkit-transform 0.5s ease;
+	transition: transform all 0.5s ease;
+	-o-transform: rotate(-5deg);
+	-ms-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	-webkit-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+}
+
+@-webkit-keyframes landingFadeInOut {
+	0% {
+		background-image: url("../assets/1.jpg");
+	}
+	20% {
+		background-image: url("../assets/2.jpg");
+	}
+	40% {
+		background-image: url("../assets/3.jpg");
+	}
+	60% {
+		background-image: url("../assets/4.jpg");
+	}
+	80% {
+		background-image: url("../assets/5.jpg");
+	}
+	100% {
+		background-image: url("../assets/6.jpg");
+	}
+}
+
+#landing {
+	background-color: #F8F8F5;
+	background-image: url("../assets/6.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 100px;
+
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	-o-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	-moz-transform: translate3d(0,0,0);
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+
+	-webkit-animation-name: landingFadeInOut;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-duration: 25s;
+
+	-moz-animation-name: landingFadeInOut;
+	-moz-animation-direction: alternate;
+	-moz-animation-timing-function: ease-in-out;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-duration: 25s;
+
+	-o-animation-name: landingFadeInOut;
+	-o-animation-direction: alternate;
+	-o-animation-timing-function: ease-in-out;
+	-o-animation-iteration-count: infinite;
+	-o-animation-duration: 25s;
+
+	animation-name: landingFadeInOut;
+	animation-direction: alternate;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-duration: 8s;
+}
+
+#landing h2 {
+	font-size: 4em;
+	line-height: 1em;
+	font-weight: bold;
+	font-family: "Lobster Two", cursive;
+	font-style: italic;
+	text-align: center;
+	padding: 30px 40px;
+	margin: 0;
+	color: #ffffff;
+	background: rgba(0,0,0,.4);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .5);
+	position: absolute;
+	bottom: 50px;
+	left: 0;
+	right: 0;
+}
