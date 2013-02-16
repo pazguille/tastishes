@@ -1,5 +1,5 @@
 # Tastishes
-The tastiest dishes in one place... Coming soon!
+Discover and share the tastiest dishes. Coming soon!
 
 ## Contact
 - Guille Paz (Frontend developer - JavaScript developer | Web standards lover)
